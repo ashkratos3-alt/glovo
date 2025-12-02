@@ -1,0 +1,3 @@
+https://glovoapp.com/opengraph-image.png
+
+Cannot download image; STATUS_CODE_404

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="data:image/png;base64,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" width="100" alt="">
+            </div>
+            <div class="address">
+                <div class="info">
+                    <p>enter your address to know  <span class="cha">what's near you</span></p>
+                    <div class="minicon">
+                        <i class='bxr  bx-location'>what's your address? <span class="red">→</span></i> 
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <i class='bxr  bx-user'><a href="">login</a></i> 
+            </div>
+            <hr>
+        </div>
+        <div class="hero">
+            <div class="left">
+                <img src="./6fe68424-a6f2-4e28-9aad-cfa93e03163d/burger-full-landing-dfe87a91.png" width="350" alt="">
+            </div>
+            <div class="right">
+                <h1>Food delivery and <br> more</h1>
+                <p>groceries, shops, pharmacies, anything!</p>
+                   <div class="minicon1">
+                        <i class='bxr  bx-location'>what's your address? <span class="red1">Use current location</span></i> 
+                        
+                    </div>
+            </div>
+             
+        </div>
+       
+    </div>
+     <div class="otf">
+            <h3>Top restaurant and more in Glovo</h3>
+        </div>
+    <div class="picha">
+        <div class="rexy">
+        <img src="https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/bghikwl7kiy5zyytrhp3" width="200" alt="">
+        <p>MC Donald</p>
+        </div>
+        <div class="rexy">
+        <img src="https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/bjqayhyh0x0trsnujkfn" width="200" alt="">
+        <p>KFC</p>
+        </div>
+         <div class="rexy">
+        <img src="https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/htnphwqorq4rl3zhcr1z" width="210" alt="">
+        <p>Burger King</p>
+        </div>
+         <div class="rexy">
+        <img src="https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/hvpjrukzrzcx2fr7aivr" width="200" alt="">
+        <p>Carrefour</p>
+        </div>
+        <div class="rexy">
+        <img src="https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/ytwytqxp9iracoscs2jf" width="200" alt="">
+        <p>PizzaHut</p>
+        </div>
+        <div class="rexy">
+        <img src="https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/igq1ghjtalh1hzzu3wx1.png" width="220" alt="">
+        <p>Papa John</p>
+        </div>
+        <div class="rexy">
+        <img src="https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/fgxofdbzk1n0mpxqfxwu" width="200" alt="">
+      <p>Subway</p>
+    </div>
+        <div class="rexy">
+        <img src="https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/grdqndkujhpgjt88ionz" width="176" alt="">
+       <p>TacoBell</p> 
+    </div>
+    </div>
+<div class="title">
+    <h1>Anything delivered</h1>
+</div>
+<div class="photo">
+    <div class="dot">
+        <img src="https://glovoapp.com/_next/static/media/restaurants.e082f46b.svg" width="200" alt="">
+        <h2>Your city's top restaurants</h2>
+        <p>With a great variety of restaurants you <br> can order your favourite food or <br> <span class="io">explore new restaurants nearby!</span> </p>
+    </div>
+    <div class="dot">
+        <img src="https://glovoapp.com/_next/static/media/delivery.81e9087f.svg" width="200" alt="">
+        <h2>Fast delivery</h2>
+        <p>Like a flash! Order or send anything in <br> your city and <span class="io">receive it in minutes</span></p>
+    </div>
+    <div class="dot">
+        <img src="https://glovoapp.com/_next/static/media/groceries.3dd22a11.svg" width="200" alt="">
+        <h2>Groceries delivery & more</h2>
+        <p>Find anything you need! From <br> <span class="io">supermarkets to shops, pharmacies to <br> florists</span> — if it's in your city order it <br> and receive it.</p>
+    </div>
+</div>
+  <div class="but">
+        <h2>Explore stores around you</h2>
+    </div>
+    <div class="count">
+        <div class="wea">
+               <img src="https://glovoapp.com/_next/static/media/countries.1afbc7fb.svg" width="200" alt="">
+        <h1>Countries where we deliver</h1>
+        </div>
+        <div class="lonkz">
+            <a href="">spain</a>
+            <a href="">italy</a>
+            <a href="">ukraine</a>
+            <a href="">romania</a>
+            <a href="">georgia</a>
+            <a href="">portugal</a>
+            <a href="">poland</a>
+            <a href="">monacco</a>
+            <a href="">kazakhstan</a>
+            <a href="">croatia</a>
+            <a href="">kenya</a>
+            <a href="">cote D'lvoire</a>
+            <a href="">sarbia</a>
+            <a href="">moldova</a>
+            <a href="">uganda</a>
+            <br>
+            <a href="">kyrgyzstan</a>
+            <a href="">bosnia and herzegovina</a>
+            <a href="">bulgaria</a>
+            <a href="">montenegro</a>
+            <a href="">nigeria</a>
+            <a href="">armenia</a>
+            <a href="">tunisia</a>
+        </div>
+     
+    </div>
+    <div class="down">
+        <div class="downleft">
+            <img src="https://glovoapp.com/_next/static/media/download-icon.475cc763.svg" alt="">
+            <h2>Download the app</h2>
+            <p>Order anything and track it in real time with the Glovo app.</p>
+            <div class="buttons">
+                <img src="https://glovoapp.com/_next/static/media/ios-button.33217f86.svg" width="180" alt="">
+                <img src="https://glovoapp.com/_next/static/media/google-button.4b60c502.svg" width="200" alt="">
+            </div>
+        </div>
+        <div class="rightleft">
+            <img src="./6fe68424-a6f2-4e28-9aad-cfa93e03163d/download-app-2ab3fe41.png" width="600" alt="">
+        </div>
+    </div>
+    <div class="let">
+        <img src="https://glovoapp.com/_next/static/media/hands.1b6e6913.svg" width="150" alt="">
+        <h3>Let's do it together</h3>
+        </div>
+        <div class="section">
+        <div class="pio">
+            <img src="https://glovoapp.com/_next/static/media/rider.8620ac39.png" width="200" alt="">
+            <h3>Become a rider</h3>
+            <p>Enjoy flexibility, freedom and <br> competitive earnings by delivering <br> through Glovo.</p>
+             <div class="button1">
+            <h3><a href="">Register here</a></h3>
+
+        </div>
+        </div>
+       
+        <div class="pio">
+            <img src="https://glovoapp.com/_next/static/media/partners.44ae5e5a.png" width="200" alt="">
+            <h3>Become a partner</h3>
+            <p>Grow with Glovo! Our technology and <br> user base can help you boost sales and <br> unlock new opportunities!</p>
+             <div class="button1">
+            <h3><a href="">Register here</a></h3>
+
+        </div>
+        </div>
+       
+        <div class="pio">
+            <img src="https://glovoapp.com/_next/static/media/careers.edf0291a.png" width="200" alt="">
+            <h3>Careers</h3>
+            <p>Ready for an exciting new challenge? If <br> you’re ambitious, humble, and love <br> working with others, then we want to <br> hear from you!</p>
+              <div class="button1">
+            <h3><a href="">Register here</a></h3>
+
+        </div>
+        </div>
+      
+    </div>
+    </div>
+    
+    </div>
+</body>
+</html>
