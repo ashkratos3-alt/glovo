@@ -17,9 +17,11 @@ body{
     }
     .navbar{
         width: 100%;
-        position: relative;
-    // background-attachment: fixed;
+        position: fixed;
+    background-attachment: fixed;
+    background-color: #ffc042;
         // background-color: red;
+        background-size: contain;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -89,6 +91,7 @@ body{
 
     }
     .hero{
+        padding: 12rem 0;
         display: flex;
         margin: 0 auto;
         align-items: center;
@@ -297,6 +300,37 @@ body{
                         color: #fff;
                     }
                 }
+            }
+            .about{
+                width: 100%;
+                background-color:#161617 ;
+                color: #fff;
+                .infodet{
+                    display: flex;
+                    justify-content: space-around;
+                    margin: 0 auto;
+                    gap: 4rem;
+                    font-family: sans-serif;
+                    .info1{
+                        display: grid;
+                        padding: 2rem;
+                        a{
+                            text-decoration: dashed;
+                            color: #e0f0ed;
+                            margin: .1rem 0;
+                            padding: .1rem;
+                        }
+                    }
+                    .min{
+                        display: grid;
+                        padding: 1rem 0;
+                        gap: 2rem;
+                        // margin: 2rem 0;
+                        // line-height: 2rem;
+                    }
+                   
+                }
+                
             }
     
 }

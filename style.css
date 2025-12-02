@@ -18,7 +18,10 @@ body .container {
 }
 body .navbar {
   width: 100%;
-  position: relative;
+  position: fixed;
+  background-attachment: fixed;
+  background-color: #ffc042;
+  background-size: contain;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -81,6 +84,7 @@ body .navbar .button a {
   text-transform: capitalize;
 }
 body .hero {
+  padding: 12rem 0;
   display: flex;
   margin: 0 auto;
   align-items: center;
@@ -259,4 +263,32 @@ body .section .button1 {
 body .section .button1 a {
   text-decoration: none;
   color: #fff;
+}
+body .about {
+  width: 100%;
+  background-color: #161617;
+  color: #fff;
+}
+body .about .infodet {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  gap: 4rem;
+  font-family: sans-serif;
+}
+body .about .infodet .info1 {
+  display: grid;
+  padding: 2rem;
+}
+body .about .infodet .info1 a {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+  color: #e0f0ed;
+  margin: 0.1rem 0;
+  padding: 0.1rem;
+}
+body .about .infodet .min {
+  display: grid;
+  padding: 1rem 0;
+  gap: 2rem;
 }/*# sourceMappingURL=style.css.map */
