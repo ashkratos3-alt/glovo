@@ -9,39 +9,43 @@
 </head>
 <body>
     <div class="container">
-        <div class="navbar">
+        <div class="header">
+               <div class="navbar">
             <div class="logo">
-                <img src="data:image/png;base64,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" width="100" alt="">
+                <img src="6fe68424-a6f2-4e28-9aad-cfa93e03163d/image.svg" width="100" alt="">
             </div>
             <div class="address">
                 <div class="info">
                     <p>enter your address to know  <span class="cha">what's near you</span></p>
                     <div class="minicon">
-                        <i class='bxr  bx-location'>what's your address? <span class="red"></span></i> 
-                        
+                        <i class='bxr  bx-location'>what's your address?</i>
+                        <img src="6fe68424-a6f2-4e28-9aad-cfa93e03163d/image (4).svg" alt="" width="20"> 
                     </div>
                 </div>
             </div>
-            <div class="button">
-                <i class='bxr  bx-user'><a href="">login</a></i> 
-            </div>
-            <hr>
+              <div class="button">
+                 <button><i class='bxr  bx-user'><a href="./login.html">login</a></i></button>
+                     </div>
+           
         </div>
         <div class="hero">
             <div class="left">
-                <img src="./6fe68424-a6f2-4e28-9aad-cfa93e03163d/burger-full-landing-dfe87a91.png" width="350" alt="">
+                <video src="address-container-animation.webm" autoplay playinline loop width="400" height="300"></video>
             </div>
             <div class="right">
                 <h1>Food delivery and <br> more</h1>
-                <p>groceries, shops, pharmacies, anything!</p>
+                <h3>Groceries, Shops, Pharmacies, Anything!</h3>
                    <div class="minicon1">
                         <i class='bxr  bx-location'>what's your address? <span class="red1">Use current location</span></i> 
                     </div>
+        
             </div>
-             
-        </div>
-       
-    </div>
+        </div>    
+          <img src="address-jumbotron-wave-desktop.1c0cbdfa.svg" alt="">   
+    <!-- </div> -->
+        <!-- </div> -->
+     
+    <!-- <img src="" alt=""> -->
      <div class="otf">
             <h3>Top restaurant and more in Glovo</h3>
         </div>
@@ -184,7 +188,7 @@
         </div>
     </div>
       <div class="about">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnnHtOK4ziL55t8Ev1PFF_ely6rESxAXuvtw&s" width="150" alt="">
+      <img src="6fe68424-a6f2-4e28-9aad-cfa93e03163d/image.svg" width="100" alt="">
         <div class="infodet">
             <div class="info1">
                 <h4>Let’s do it together</h4>
@@ -217,6 +221,16 @@
            
             </div>
         </div>  
+          <select>
+                <option value="">English</option>
+                <option value="">Chinese</option>
+                <option value="">Kinyarwanda</option>
+                <option value="">Kiswahili</option>
+                <option value="">German</option>
+                <option value="">Spanish</option>
+                <option value="">Portuguese</option>
+                <option value=""></option>
+          </select>
     </div>
      
       
