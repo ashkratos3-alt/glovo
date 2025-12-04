@@ -113,10 +113,10 @@ h2{
     padding: 1rem 9rem;
    }
    .buttons{
-    width: 30%;
+    width: 50%;
     /* display: flex; */
     padding: .1rem 0;
-    margin: 0 5rem;
+    margin: 0 1rem;
    }
    .data{
     width: 90%;
@@ -125,7 +125,7 @@ h2{
     /* justify-content: center; */
     /* align-items: center; */
     /* line-height: 2rem; */
-   padding: .1rem;
+   padding: 0.6rem;
     /* border: 1px solid gray; */
    
    }
@@ -144,7 +144,7 @@ h2{
     /* background-color: green; */
     border-radius: 2rem;
     border: 1px solid black;
-     /* padding: .1rem.2rem; */
+     padding: .1rem.2rem;
     
    }
    .bootinf{
