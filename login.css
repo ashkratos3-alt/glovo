@@ -13,11 +13,17 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     /* position: fixed; */
     display: flex;
-    /* justify-content: space-around; */
+    padding: 0 9rem;
+    justify-content: center;
+}
+.bg{
+    display: flex;
+    justify-content: center;
 }
 .hero{
    width: 100%;
-   padding: 2rem 2rem;
+   padding: 2rem 8rem;
+   /* display: flex; */
    margin: 0 auto;
 }
 .head{
@@ -63,7 +69,7 @@ h2{
     border-radius: .3rem;
    }
    .info{
-    margin: 2rem 0;
+    margin: 1rem 0;
     display: flex;
      a{
     /* border: 1px solid green; */
@@ -73,16 +79,85 @@ h2{
     text-decoration: none;
     font-weight: bold;
    }
+    &:hover a{
+        text-decoration: underline;
+    }
    }
    .links{
-    /* display: flex; */
-    a{
+    width: 100%;
+   }
+   .cta{
+    display: flex;
+    gap: 1rem;
+     a{
+        width: 20%;
         text-decoration: none;
         border: 1px solid black;
         border-radius: 1rem;
-        padding: 0.2rem;
-        gap: 7rem;
-        /* display: flex; */
+        padding: 0.1rem;
+        /* gap: 7rem; */
+        background-color:#e0f0ed;
+        display: flex;
+        justify-content: center;
+        color: rgb(56, 90, 56);
+        font-weight: bolder;
+       
+    }
+        .rim{
+    background-color: rgb(9, 99, 9);
+    color: white;
+    
+   }
+   }
+   .rab{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 9rem;
+   }
+   .buttons{
+    width: 30%;
+    /* display: flex; */
+    padding: .1rem 0;
+    margin: 0 5rem;
+   }
+   .data{
+    width: 90%;
+    /* display: flex; */
+    /* background-color: red; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* line-height: 2rem; */
+   padding: .1rem;
+    /* border: 1px solid gray; */
+   
+   }
+   .text{
+    width: 30%;
+    display: flex;
+    /* background-color: green; */
+    /* line-height: 2rem; */
+    /* border: 1px solid black; */
+   }
+   .war{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    border-radius: 2rem;
+    border: 1px solid black;
+     /* padding: .1rem.2rem; */
+    
+   }
+   .bootinf{
+    a{
+        color: rgb(51, 142, 51);
+        text-decoration: none;
+    }
+    &:hover a{
+        text-decoration:underline
     }
    }
+  
+
   
